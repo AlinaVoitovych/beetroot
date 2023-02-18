@@ -8,6 +8,101 @@
 </head>
 <body>
   <h1>bibers</h1>  
-    
+  <section>
+  <form action="#" method="get">
+    <!-- User's name -->
+    <div>
+      <p>Name</p>
+      <input tabindex="1" name="username" type="text" />
+    </div>
+    <!-- User's password -->
+    <div>
+      <p>Password</p>
+      <input tabindex="2" name="userpass" type="password" />
+    </div>
+    <!-- User's phone -->
+    <div>
+      <p>Phone Number</p>
+      <input tabindex="3" name="userphone" type="tel" />
+    </div>
+    <!-- User's Gender -->
+    <div>
+      <p>Gender</p>
+      <input
+        tabindex="4"
+        type="radio"
+        name="usergender"
+        value="male"
+      />
+      Male
+    </div>
+    <div>
+      <input
+        tabindex="5"
+        type="radio"
+        name="usergender"
+        value="female"
+      />
+      Female
+    </div>
+    <div>
+      <input
+        tabindex="6"
+        type="radio"
+        name="usergender"
+        value="other"
+      />
+      Other
+    </div>
+    <!-- User's property -->
+    <div>
+      <p>Property</p>
+      <input
+        tabindex="7"
+        type="checkbox"
+        name="userproperty"
+        value="vehicle"
+      />
+      Bicycle
+    </div>
+    <div>
+      <input
+        tabindex="8"
+        type="checkbox"
+        name="userproperty"
+        value="vehicle"
+      />
+      Car
+    </div>
+    <div>
+      <input tabindex="9" type="checkbox" name="userproperty" value="flat" />
+      Apartment
+    </div>
+    <!-- User's additional information -->
+    <div>
+      <p>Additional information</p>
+      <textarea tabindex="10" name="text"> </textarea>
+    </div>
+    <div>
+      <p>Attach photo</p>
+      <input tabindex="11" type="file" name="userphoto" />
+    </div>
+    <!-- User's color preference -->
+    <div>
+      <p>Favourite color</p>
+      <select tabindex="12" name="color">
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+      </select>
+    </div>
+    <!-- User's options -->
+    <div>
+      <p>Action</p>
+      <button tabindex="13" type="submit">Submit</button>
+      <button tabindex="14" type="reset">Reset</button>
+    </div>
+  </form>
+</section>
 </body>
 </html>
