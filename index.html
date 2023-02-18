@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
 </head>
+
 <body>
-    
+	<section>
+		<h2>Форма Руслан Магац</h2>
+		<form action="#" method="get">
+
+			<div class="box-form">
+				<p>Авторизація</p>
+				<p><input tabindex="1" placeholder="Login" type="text" name="username" value="" required></p>
+				<p><input tabindex="2" placeholder="Password" type="password" name="userpass" value="" required></p>
+			</div>
+
+			<div class="box-form">
+				<p>Улюблене пиво</p>
+				<p><input tabindex="3" checked type="radio" name="beer" value="lager"> Світле пиво</p>
+				<p><input tabindex="3" type="radio" name="beer" value="dark"> Темне пиво</p>
+			</div>
+
+			<div class="box-form">
+				<p>Улюблене пиво 2</p>
+				<p><input tabindex="4" type="radio" name="beer2" value="lager"> Світле пиво</p>
+				<p><input tabindex="4" checked type="radio" name="beer2" value="dark"> Темне пиво</p>
+			</div>
+
+			<div class="box-form">
+				<p>Рухоме майно</p>
+				<p><input tabindex="5" checked type="checkbox" name="avto" value="yes"> Наявність авто</p>
+				<p><input tabindex="6" type="checkbox" name="avto2" value="yes"> Наявність авто 2</p>
+				<p><input tabindex="7" type="checkbox" name="avto3" value="yes"> Наявність авто 3</p>
+				<p><input tabindex="8" disabled type="checkbox" name="avto4" value="yes"> Наявність авто 4</p>
+			</div>
+
+			<div class="box-form">
+				<button tabindex="9" type="submit">Send</button>
+				<button tabindex="10" type="reset">Reset</button>
+			</div>
+
+		</form>
+	</section>
 </body>
+
 </html>
